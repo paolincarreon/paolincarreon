@@ -1,0 +1,112 @@
+/* resetear*/
+* {margin: 0px;
+padding: 0px;
+}
+/* centrar el contenido de la pagina */
+body {
+    text-align: center;
+    background-color: #105e29; color: #ffffff;
+ } 
+ /* centrar el contenido de la pagina web */
+  #agrupar {
+   width: 980px;
+   margin: 5px auto;
+   background-color: #18529d;
+   padding: 20px;
+   } 
+   /* formato a la cabecera de la pagina */
+   #cabecera { 
+    background-color: #ffffff; color: black;
+    border: 1px solid #999999;
+    padding: 15px;
+   } 
+#menu {
+    background: #0f0f0f;
+    padding: 5px 250px;
+ } 
+ #menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+  } 
+section { 
+    float: left;
+    width: 660px;
+    margin: 20px;
+    border-right: 2px solid white;
+  } 
+ #columna {
+   float: left;
+   width: 220px;
+   margin: 20px 0px;
+   padding: 20px;
+   background: #4e4d4d;
+} 
+
+#pie { 
+   clear: both;
+   text-align: center;
+   padding: 20px;
+   border-top: 2px solid #999;
+} 
+
+article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+ } 
+ article footer {
+    text-align: right;
+} 
+time { 
+    color: #999999;
+} 
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+    color: black;
+} 
+
+nav {display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-weight: bold;
+} 
+
+h1 {
+    color: black;
+    font-size: 45px;
+ } 
+ h2,h3,h4,h5,h6 { 
+    color: black;
+    font-size: 14px;
+ } 
+ p { 
+    color: black;
+    font-size: 14px;
+ } 
+
+ ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+/* estilo de los enlaces*/
+a:link {
+   color: #ffffff;
+}
+a:visited {
+   color:yellow
+}
+a:hover {
+   color: yellowgreen;
+}
+a{
+    color: #ffffff;
+    text-decoration:none;
+ } 
